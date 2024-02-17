@@ -1,0 +1,47 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  color: #436850,
+}
+
+h1 {
+  font-size: 30px;
+  color: #12372A;
+  font-family: bold;
+}
+
+input {
+  margin-right: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+button {
+  margin-left: 4px;
+  background-color: #436850;
+  padding: 8px;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+}
+
+
+.tab {
+  display: flex;
+  justify-content: center;
+}
+
+.tab .active {
+  background-color: #539a6c;
+}
